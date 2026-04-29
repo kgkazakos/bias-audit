@@ -1,0 +1,14 @@
+[
+  {"speaker": "Interviewer", "text": "Walk me through how you typically start your workday."},
+  {"speaker": "Participant", "text": "I check emails first, then look at my task list."},
+  {"speaker": "Interviewer", "text": "What do you use for your task list?"},
+  {"speaker": "Participant", "text": "I use the built-in task manager mostly."},
+  {"speaker": "Interviewer", "text": "How does the task manager fit into the rest of your workflow?"},
+  {"speaker": "Participant", "text": "It's central, really. I start there and work outward."},
+  {"speaker": "Interviewer", "text": "If you were redesigning it, what would you keep?"},
+  {"speaker": "Participant", "text": "The priority sorting is really good. I'd definitely keep that."},
+  {"speaker": "Interviewer", "text": "And what would you remove?"},
+  {"speaker": "Participant", "text": "The calendar sync is buggy. It misses things."},
+  {"speaker": "Interviewer", "text": "Right, so the calendar sync is the main pain point, correct?"},
+  {"speaker": "Participant", "text": "Yes, that's the biggest one."}
+]

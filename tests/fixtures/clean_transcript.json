@@ -1,0 +1,18 @@
+[
+  {"speaker": "Interviewer", "text": "Thanks for making time. Could you walk me through a typical morning with the dashboard?"},
+  {"speaker": "Participant", "text": "Sure. I open it first thing, usually around 8am, to check the overnight metrics."},
+  {"speaker": "Interviewer", "text": "Tell me more about what you do once you've checked those metrics."},
+  {"speaker": "Participant", "text": "I flag anything that looks off and add it to the team Slack."},
+  {"speaker": "Interviewer", "text": "What happens next?"},
+  {"speaker": "Participant", "text": "Usually I'll dig into the underlying data if something is off."},
+  {"speaker": "Interviewer", "text": "How do you go about digging into the underlying data?"},
+  {"speaker": "Participant", "text": "I use the filter panel on the left, then export to a CSV and run some formulas."},
+  {"speaker": "Interviewer", "text": "Can you show me how you'd do that export?"},
+  {"speaker": "Participant", "text": "Yeah, so I'd go here... and then click Export... and it downloads automatically."},
+  {"speaker": "Interviewer", "text": "What was going through your mind as you did that?"},
+  {"speaker": "Participant", "text": "Honestly I was wondering if I could do it without leaving this screen."},
+  {"speaker": "Interviewer", "text": "Say more about that."},
+  {"speaker": "Participant", "text": "Like, ideally the export would be modal-based rather than a full page redirect."},
+  {"speaker": "Interviewer", "text": "Is there anything else about that flow you'd want me to know?"},
+  {"speaker": "Participant", "text": "Just that the CSV column names are a bit cryptic."}
+]

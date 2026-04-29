@@ -1,0 +1,14 @@
+[
+  {"speaker": "Interviewer", "text": "Don't you think the notifications are way too frequent?"},
+  {"speaker": "Participant", "text": "They are quite a lot, yes."},
+  {"speaker": "Interviewer", "text": "Exactly! Most users we've spoken to said the same thing."},
+  {"speaker": "Participant", "text": "Okay."},
+  {"speaker": "Interviewer", "text": "Why did you struggle to turn them off?"},
+  {"speaker": "Participant", "text": "I mean, I didn't exactly struggle, it just took a few steps."},
+  {"speaker": "Interviewer", "text": "Was it because the settings were buried too deep?"},
+  {"speaker": "Participant", "text": "Kind of, yeah."},
+  {"speaker": "Interviewer", "text": "Isn't it true that simpler settings would have helped?"},
+  {"speaker": "Participant", "text": "I suppose so."},
+  {"speaker": "Interviewer", "text": "How would you feel and what would you do if the notifications were reduced by half?"},
+  {"speaker": "Participant", "text": "That would probably be better."}
+]

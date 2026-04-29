@@ -1,0 +1,12 @@
+[
+  {"speaker": "Interviewer", "text": "Wouldn't you say the new search feature is a big improvement?"},
+  {"speaker": "Participant", "text": "It's better, yes."},
+  {"speaker": "Interviewer", "text": "Tell me about the last time you searched for a document."},
+  {"speaker": "Participant", "text": "I was looking for the Q3 report and typed in the title."},
+  {"speaker": "Interviewer", "text": "Was it frustrating when it didn't appear immediately?"},
+  {"speaker": "Participant", "text": "A little bit, yes."},
+  {"speaker": "Interviewer", "text": "What did you do after that?"},
+  {"speaker": "Participant", "text": "I tried different keywords."},
+  {"speaker": "Interviewer", "text": "Studies show most users prefer instant search. Do you agree?"},
+  {"speaker": "Participant", "text": "Sure, that sounds right."}
+]

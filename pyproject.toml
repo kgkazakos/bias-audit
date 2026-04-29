@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bias-audit"
+version = "0.1.0"
+description = "Detect and categorise interviewer bias patterns across transcript corpora"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Kostas Kazakos", email = "hello@kgkazakos.com" }]
+requires-python = ">=3.10"
+keywords = ["ux-research", "qualitative", "bias", "interview", "transcript", "cpr"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "click>=8.1",
+]
+
+[project.optional-dependencies]
+llm = [
+    "dspy-ai>=2.4",
+    "litellm>=1.40",
+]
+openai = ["openai>=1.0"]
+anthropic = ["anthropic>=0.28"]
+google = ["google-generativeai>=0.5"]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.4",
+]
+
+[project.scripts]
+bias-audit = "bias_audit.cli:cli"
+
+[project.urls]
+Homepage = "https://github.com/kgkazakos/bias-audit"
+Repository = "https://github.com/kgkazakos/bias-audit"
+Issues = "https://github.com/kgkazakos/bias-audit/issues"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
