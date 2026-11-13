@@ -9,7 +9,7 @@ from bias_audit.models import BiasInstance, CorpusReport, TranscriptReport
 _SUPPORTED_BACKENDS = {
     "openai": "openai/gpt-4o-mini",
     "anthropic": "anthropic/claude-haiku-4-5-20251001",
-    "gemini": "gemini/gemini-2.0-flash",
+    "gemini": "gemini/gemini-3.6-flash",
 }
 
 
